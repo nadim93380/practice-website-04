@@ -76,3 +76,35 @@
 }
 /* main page style */
 
+.page-1{
+    height: 90vh;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    align-items: center;
+}
+.our-description{
+    width: 600px;
+    
+
+}
+.main-des-1{
+    font-size: 40px;
+}
+.p1d1{
+    margin-bottom: 20px;
+}
+.p1d3{
+    margin-top: 40px;
+}
+.p1-btn{
+    margin-top: 60px;
+    color: black;
+    padding: 10px 30px 10px;
+    font-size: 20px;
+}
+.work-photo{
+    border-radius: 5px;
+    box-shadow: 10px 10px 4px grey;
+}
