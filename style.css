@@ -108,3 +108,27 @@
     border-radius: 5px;
     box-shadow: 10px 10px 4px grey;
 }
+.recent-uploads{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 35px 90px;
+}
+#p2h1{
+    color: orange;
+    text-align: center;
+    font-size: 30px;
+}
+#p2h2{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.recent-uploads > img{
+    box-shadow: 5px 5px 8px grey;
+}
+#p1p2{
+    color: rgb(31, 26, 26);
+    margin: -30px 150px 30px;
+    height: 5px;
+}
