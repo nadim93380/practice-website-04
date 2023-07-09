@@ -20,7 +20,7 @@
     display: flex;
     gap: 30px;
     list-style: none;
-    font-size: 20px;
+    
 }
 .call-us{
     display: block;
@@ -37,6 +37,13 @@
 .call-us-nmbr{
     color: orange;
     font-size: 25px;
+}
+.menu-pointer{
+    font-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
 }
 /* welcome page design */
 .welcome-page{
