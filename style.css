@@ -2,3 +2,77 @@
     margin: 0;
     padding: 0;
 }
+/* Header section style */
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: url('./image/header-bg.jpg'), linear-gradient(to right, rgba(29, 27, 27, 0.8),rgba(15, 15, 15, 0.8));
+    background-blend-mode: overlay;
+    background-size: cover;
+    color: white;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-container{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: 20px;
+}
+.call-us{
+    display: block;
+    justify-content: center;
+    align-items: centre;
+    margin-right: 20px;
+
+}
+.call-des{
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+.call-us-nmbr{
+    color: orange;
+    font-size: 25px;
+}
+/* welcome page design */
+.welcome-page{
+    text-align: center;
+    margin-top: 20vh;
+}
+.welcome-txt{
+    font-size: 80px;
+}
+.btn{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    border: 3px solid grey;
+    background-color: transparent;
+}
+.welcome-page-footer{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 200px;
+}
+.discover-btn{
+    margin-left: 220px;
+    padding: 20px;
+    font-size: 20px;
+    color: grey;
+    background-color: transparent;
+    border: none;
+}
+.welcome-pg-logo{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+}
+/* main page style */
+
