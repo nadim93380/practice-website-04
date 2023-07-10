@@ -76,6 +76,9 @@
     background-color: transparent;
     border: none;
 }
+.discover-btn:hover{
+    box-shadow: 2px 2px 5px rgb(167, 163, 163) ;
+}
 .welcome-pg-logo{
     display: flex;
     /* justify-content: space-between; */
@@ -94,7 +97,6 @@
 .our-description{
     width: 600px;
     
-
 }
 .main-des-1{
     font-size: 40px;
@@ -110,6 +112,16 @@
     color: black;
     padding: 10px 30px 10px;
     font-size: 20px;
+}
+.p1-btn:hover{
+    background-color: rgb(172, 177, 179);
+    box-shadow: 2px 2px 5px grey;
+} 
+.btn-1:hover{
+    background-color: rgb(156, 152, 152);
+    box-shadow: 2px 2px 5px grey;
+    color: black;
+
 }
 .work-photo{
     border-radius: 5px;
